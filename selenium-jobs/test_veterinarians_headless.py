@@ -29,4 +29,5 @@ verify_table = WebDriverWait(driver, 10).until(EC.presence_of_element_located((B
 
 print("Table loaded")
 
+
 driver.quit()
