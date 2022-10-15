@@ -2,14 +2,11 @@
 //Nexus server will run on Amazon Linux 2 with custom security group
 //allowing SSH (22) and TCP (8081) connections from anywhere.
 
-mykey              = "petclinic-rancher.pem"
-ami                = "ami-0cff7528ff583bf9a"
-region             = "us-east-1"
-instance_type      = "t3a.medium"
-nexus_server_secgr = "petclinic-nexus-server-secgr"
-nexus-server-tag   = "Nexus Server of Petclinic"
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> feature/msp-26
 terraform {
   required_providers {
     aws = {
